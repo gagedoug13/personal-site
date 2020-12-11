@@ -4,8 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <h1>hello</h1>
+
+    <div class="main-div">
+
+        <div class="welcome-div">
+            <img class="profile-pic" src="photos-and-gifs/profile-picture.PNG" />
+            <h1>hello</h1>
+
+            <div class="socials-div">
+                <img class="social-icon" src="social-pics/github-icon.png"/>
+                <img class="social-icon" src="social-pics/linkedin-icon.png"/>
+                <img class="social-icon" src="social-pics/medium-icon.png"/>
+            </div>
+        </div>
+    
+        <div class="projects-div">
+            <!-- <h1>projects</h1> -->
+            <div class="visualizer-div">
+                <h3>This audio visualizer was created with Javascript and D3.js</h3>
+                <img class="project-pic" 
+                     src="photos-and-gifs/visualizer-screenshot.png"
+                     onmouseover="addVisualGif(this)"/>
+            </div>
+        </div>
+    
+        <div class="blogs-div">
+            <!-- <h3>A series of technical blog posts that explain coding problems and solutions for multiple challenges.</h3> -->
+            <img class="project-pic" 
+                 src="photos-and-gifs/blog-posts.png"
+                 onmouseover="addBlogGif(this)"
+                 />
+        </div> 
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
