@@ -2,6 +2,27 @@
     background-color: grey;
 }
 
+
+.pic-div {
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+}
+
+.socials-div {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    margin-top: 2vh;
+}
+.profile-pic {
+    /* margin-right: 3vw; */
+    width: 15vw;
+    height: 30vh; 
+}
+
 .project-pic {
     width: 65vw;
     height: auto;
@@ -15,5 +36,10 @@
 
 .social-icon {
     width: 5vw;
-    height: auto;
+    height: 10vh;
+    margin-left: 1vw;
+}
+
+.center-text {
+    text-align: center;
 }
