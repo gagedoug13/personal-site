@@ -7,7 +7,6 @@ const addVisualGif = (event) => {
       
     },12000)
     
-    
 }
 
 const addBlogGif = (event) => {

@@ -1,5 +1,9 @@
 .main-div {
-    background-color: grey;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 300vh;
 }
 
 
@@ -10,13 +14,15 @@
 }
 
 .socials-div {
-    width: 100vw;
+    /* width: 100vw; */
     height: 15vh;
     display: flex;
     justify-content: center;
-    align-content: space-between;
-    margin-top: 2vh;
+    align-items: center;
+    
 }
+
+
 .profile-pic {
     /* margin-right: 3vw; */
     width: 15vw;
@@ -32,14 +38,52 @@
     display: flex;
     justify-content: center;
     margin-bottom: 3vh;
+    
 }
 
 .social-icon {
     width: 5vw;
     height: 10vh;
     margin-left: 1vw;
+    
 }
 
 .center-text {
     text-align: center;
+}
+
+.this {
+    color: lime;
+    text-decoration: none;
+    font-weight: 900;
+}
+.this:link {
+    text-decoration: none;
+}
+/*   
+.this:visited {
+    text-decoration: none;
+} */
+  
+.this:hover {
+    text-decoration: none;
+}
+  
+/* .this:active {
+    text-decoration: none;
+} */
+
+.body-div {
+    width: 75vw;
+    border: 2px solid rgb(167, 2, 182);
+    background-color: grey;
+    
+    
+}
+
+.group1 {
+    margin-top: 3px;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: #696969;
 }
