@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: 300vh;
+    height: 400vh;
 }
 
 
@@ -34,7 +34,7 @@
     height: auto;
 }
 
-.projects-div, .blogs-div, .welcome-div {
+.projects-div, .blogs-div, .neighborhood-div {
     display: flex;
     justify-content: center;
     margin-bottom: 3vh;
